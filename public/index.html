@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily English Reader</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Daily English News</p>
+        <h1>Daily News</h1>
+      </div>
+      <div class="window" id="windowText">08:00 &#26356;&#26032;</div>
+    </header>
+
+    <main class="shell">
+      <aside class="rail" aria-label="&#20170;&#26085;&#25991;&#31456;">
+        <div class="rail-head">
+          <span>&#20170;&#26085;&#19977;&#31687;</span>
+          <button id="refreshButton" type="button">&#21047;&#26032;</button>
+        </div>
+        <div id="articleList" class="article-list"></div>
+      </aside>
+
+      <section class="reader" aria-live="polite">
+        <div class="reader-meta">
+          <span id="sourceText">Loading</span>
+          <span id="statusText">&#27491;&#22312;&#25910;&#38598;&#20170;&#26085;&#25991;&#31456;...</span>
+        </div>
+        <article id="article" class="article"></article>
+      </section>
+    </main>
+
+    <button id="translateButton" class="translate-button" type="button" aria-pressed="false">
+      <span class="translate-button-main">&#35793;</span>
+      <span class="translate-button-label">&#20840;&#25991;&#32763;&#35793;</span>
+    </button>
+
+    <button id="favoritesButton" class="favorites-button" type="button" aria-controls="favoritesPanel" aria-expanded="false">
+      <span class="favorites-button-main">&#9734;</span>
+      <span class="favorites-button-count" id="favoritesCount">0</span>
+    </button>
+
+    <aside id="favoritesPanel" class="favorites-panel" aria-label="&#21333;&#35789;&#25910;&#34255;&#22841;" hidden>
+      <div class="favorites-panel-head">
+        <div>
+          <p>&#21333;&#35789;&#25910;&#34255;&#22841;</p>
+          <span>&#24050;&#25910;&#34255;&#30340;&#21333;&#35789;&#21644;&#37322;&#20041;</span>
+        </div>
+        <button id="closeFavoritesButton" type="button" aria-label="&#20851;&#38381;&#25910;&#34255;&#22841;">&#215;</button>
+      </div>
+      <div id="favoritesList" class="favorites-list"></div>
+    </aside>
+
+    <div id="popover" class="popover" hidden>
+      <div class="popover-top">
+        <div class="popover-word" id="popoverWord"></div>
+        <div class="popover-actions">
+          <button id="audioButton" class="audio-button" type="button" disabled>
+            <span>&#21457;&#38899;</span>
+          </button>
+          <button id="favoriteToggle" class="favorite-toggle" type="button" aria-pressed="false" disabled>
+            <span class="favorite-toggle-icon">&#9734;</span>
+            <span class="favorite-toggle-text">&#25910;&#34255;</span>
+          </button>
+        </div>
+      </div>
+      <ul id="popoverMeanings"></ul>
+      <div class="popover-source" id="popoverSource"></div>
+    </div>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

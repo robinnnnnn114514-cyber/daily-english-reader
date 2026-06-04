@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Power and policy illustration">
+  <rect width="960" height="640" fill="#fffdf8"/>
+  <rect x="138" y="124" width="684" height="392" rx="18" fill="#f8f5ef" stroke="#1c2630" stroke-width="8"/>
+  <path d="M220 430l116-232 106 174 82-114 90 172" fill="none" stroke="#356f9f" stroke-width="22" stroke-linejoin="round"/>
+  <circle cx="336" cy="198" r="28" fill="#d96b5f"/>
+  <circle cx="442" cy="372" r="28" fill="#c99336"/>
+  <circle cx="524" cy="258" r="28" fill="#6f8f81"/>
+  <rect x="638" y="172" width="88" height="280" fill="#d96b5f"/>
+  <rect x="664" y="126" width="36" height="96" fill="#1c2630"/>
+  <path d="M216 486h548" stroke="#1c2630" stroke-width="10"/>
+</svg>

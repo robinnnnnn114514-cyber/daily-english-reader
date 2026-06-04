@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Newsroom illustration">
+  <rect width="960" height="640" fill="#f6efe6"/>
+  <rect x="76" y="92" width="808" height="456" rx="18" fill="#fffdf8" stroke="#1c2630" stroke-width="8"/>
+  <rect x="124" y="144" width="320" height="240" fill="#356f9f"/>
+  <rect x="484" y="144" width="300" height="28" fill="#d96b5f"/>
+  <rect x="484" y="204" width="250" height="20" fill="#6f8f81"/>
+  <rect x="484" y="248" width="312" height="20" fill="#c99336"/>
+  <rect x="124" y="426" width="672" height="18" fill="#ded8cc"/>
+  <rect x="124" y="466" width="560" height="18" fill="#ded8cc"/>
+  <circle cx="284" cy="264" r="76" fill="#fffdf8" opacity=".92"/>
+  <path d="M244 282h80l-40-82z" fill="#d96b5f"/>
+</svg>

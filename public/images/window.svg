@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Daily time window illustration">
+  <rect width="960" height="640" fill="#f8f5ef"/>
+  <circle cx="720" cy="168" r="78" fill="#c99336"/>
+  <rect x="118" y="112" width="520" height="370" rx="20" fill="#fffdf8" stroke="#356f9f" stroke-width="9"/>
+  <path d="M118 222h520" stroke="#356f9f" stroke-width="9"/>
+  <path d="M250 112v370M506 112v370" stroke="#ded8cc" stroke-width="8"/>
+  <rect x="164" y="282" width="60" height="60" fill="#d96b5f"/>
+  <rect x="294" y="282" width="60" height="60" fill="#6f8f81"/>
+  <rect x="424" y="282" width="60" height="60" fill="#c99336"/>
+  <path d="M690 424c64-72 130-72 196 0" fill="none" stroke="#6f8f81" stroke-width="16" stroke-linecap="round"/>
+</svg>

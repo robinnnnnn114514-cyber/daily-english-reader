@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Culture illustration">
+  <rect width="960" height="640" fill="#fffdf8"/>
+  <rect x="96" y="112" width="360" height="416" fill="#356f9f"/>
+  <rect x="144" y="160" width="264" height="320" fill="#f8f5ef"/>
+  <path d="M160 190h232M160 238h232M160 286h232M160 334h232M160 382h232M160 430h232" stroke="#d96b5f" stroke-width="12"/>
+  <rect x="520" y="116" width="280" height="380" rx="10" fill="#f8f5ef" stroke="#1c2630" stroke-width="8"/>
+  <circle cx="660" cy="250" r="76" fill="#c99336"/>
+  <path d="M580 410c46-80 114-80 160 0" fill="none" stroke="#6f8f81" stroke-width="18" stroke-linecap="round"/>
+  <path d="M522 538h280" stroke="#1c2630" stroke-width="10"/>
+</svg>

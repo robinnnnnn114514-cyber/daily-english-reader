@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="News dispatch illustration">
+  <rect width="960" height="640" fill="#fffdf8"/>
+  <path d="M120 146h720v392H120z" fill="#f8f5ef" stroke="#1c2630" stroke-width="8"/>
+  <path d="M120 146l360 242 360-242" fill="none" stroke="#356f9f" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M120 538l276-214M840 538L564 324" fill="none" stroke="#6f8f81" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="480" cy="320" r="58" fill="#d96b5f"/>
+  <path d="M450 320h60M480 290v60" stroke="#fffdf8" stroke-width="14" stroke-linecap="round"/>
+  <rect x="214" y="90" width="180" height="36" fill="#c99336"/>
+  <rect x="560" y="90" width="226" height="36" fill="#d96b5f"/>
+</svg>

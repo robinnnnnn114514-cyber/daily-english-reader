@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="World affairs illustration">
+  <rect width="960" height="640" fill="#fffdf8"/>
+  <rect x="64" y="80" width="832" height="480" rx="8" fill="#f8f5ef" stroke="#1c2630" stroke-width="8"/>
+  <circle cx="336" cy="312" r="168" fill="#356f9f"/>
+  <path d="M234 238c62 18 112 18 174 0M210 314c92 30 184 30 276 0M244 396c64 22 128 22 192 0" fill="none" stroke="#fffdf8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M336 144c-52 82-52 252 0 336M336 144c52 82 52 252 0 336" fill="none" stroke="#fffdf8" stroke-width="16" stroke-linecap="round"/>
+  <rect x="548" y="174" width="220" height="24" fill="#d96b5f"/>
+  <rect x="548" y="234" width="286" height="18" fill="#1c2630"/>
+  <rect x="548" y="282" width="244" height="18" fill="#6f8f81"/>
+  <rect x="548" y="330" width="270" height="18" fill="#c99336"/>
+  <path d="M548 438h254" stroke="#1c2630" stroke-width="8"/>
+  <circle cx="610" cy="438" r="18" fill="#d96b5f"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Dictionary illustration">
+  <rect width="960" height="640" fill="#fbf8f1"/>
+  <path d="M210 122h430c62 0 112 50 112 112v284H322c-62 0-112-50-112-112z" fill="#356f9f"/>
+  <path d="M258 166h430c38 0 68 30 68 68v326H326c-38 0-68-30-68-68z" fill="#fffdf8" stroke="#1c2630" stroke-width="8"/>
+  <path d="M348 242h290M348 306h248M348 370h312" stroke="#ded8cc" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="658" cy="432" r="56" fill="#d96b5f"/>
+  <path d="M632 432h52M658 406v52" stroke="#fffdf8" stroke-width="14" stroke-linecap="round"/>
+  <rect x="258" y="166" width="58" height="326" fill="#6f8f81"/>
+</svg>
