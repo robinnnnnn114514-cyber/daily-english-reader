@@ -247,7 +247,7 @@ function renderArticle() {
     ${body.map((paragraph, index) => `
       <p>
         <span class="paragraph-number">${index + 1}</span>
-        ${translation ? escapeHtml(paragraph) : tokenize(paragraph)}
+        <span class="paragraph-text">${translation ? escapeHtml(paragraph) : tokenize(paragraph)}</span>
       </p>
     `).join("")}
   `;
