@@ -361,29 +361,29 @@ async function getFeedItems() {
 }
 
 async function hydrateArticle(item, index) {
-  if (item.feedBody?.length >= 2) {
+  let articleHtml = "";
+  let body = [];
+  try {
+    articleHtml = await fetchText(item.url);
+    body = extractParagraphs(articleHtml);
+  } catch {
+    body = [];
+  }
+
+  const feedBody = item.feedBody || [];
+  const bestBody = body.length > feedBody.length ? body : feedBody;
+  if (bestBody.length >= 2) {
     return {
       id: `${item.source}-${index}-${Buffer.from(item.url).toString("base64url").slice(0, 12)}`,
       source: item.source,
       publishedAt: item.publishedAt,
       url: item.url,
-      title: item.title,
+      title: articleHtml ? extractTitle(articleHtml, item.title) : item.title,
       imageUrl: editorialImageFor(item.title, index),
-      body: item.feedBody
+      body: bestBody
     };
   }
-  const html = await fetchText(item.url);
-  const body = extractParagraphs(html);
-  if (body.length < 2) throw new Error("Article body was too short");
-  return {
-    id: `${item.source}-${index}-${Buffer.from(item.url).toString("base64url").slice(0, 12)}`,
-    source: item.source,
-    publishedAt: item.publishedAt,
-    url: item.url,
-    title: extractTitle(html, item.title),
-    imageUrl: editorialImageFor(item.title, index),
-    body
-  };
+  throw new Error("Article body was too short");
 }
 
 async function loadArticles(force = false) {
